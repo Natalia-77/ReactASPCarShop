@@ -1,6 +1,7 @@
 import Header from './Header';
 import Footer from './Footer';
 import Article from './Article';
+import Sidebar from './Sidebar';
 import './App.css';
 
 
@@ -11,6 +12,7 @@ function App(){
         <div className="container">
           <Header></Header>
           <Article/>
+          <Sidebar/>
           <Footer></Footer>
         </div>
         

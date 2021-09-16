@@ -1,0 +1,22 @@
+
+.sidebar {   
+    border: 3px solid ;
+    border-color: crimson;
+    background-color:gainsboro;
+    padding: 10px;
+    margin: 5px;
+}
+
+.sidebar {
+    grid-area: s;
+}
+
+.sidebar ul{
+    padding-left: 15px;
+}
+
+.sidebar ul li{
+    list-style-type: disc;
+    padding-left: 0;
+    font-size: 18px;
+}

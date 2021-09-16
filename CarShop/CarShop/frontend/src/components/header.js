@@ -5,7 +5,6 @@ function Header(){
         <div className="header">
             <h1>Українські письменники</h1>
         </div>
-
     );
 }
 

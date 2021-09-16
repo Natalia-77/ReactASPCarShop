@@ -3,6 +3,8 @@
     font-family:Georgia, 'Times New Roman', Times, serif;
     border: 3px solid ;
     border-color: crimson;
+    background-color: gainsboro;
+    text-align: center;
     padding: 10px;
     margin: 5px;
 }
