@@ -1,0 +1,17 @@
+
+.article {
+    
+    border: 3px solid;
+    border-color: blueviolet;  
+    padding: 10px;
+    margin: 5px;
+}
+
+.article {
+    grid-area: m;
+}
+
+section{
+    padding: 10px;
+    margin: 5px;
+}

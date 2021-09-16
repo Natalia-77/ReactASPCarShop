@@ -1,0 +1,12 @@
+
+.header {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    border: 3px solid ;
+    border-color: crimson;
+    padding: 10px;
+    margin: 5px;
+}
+
+.header {
+    grid-area: h;
+}
