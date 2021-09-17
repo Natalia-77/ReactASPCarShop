@@ -2,18 +2,25 @@ import Header from './Header';
 import Footer from './Footer';
 import Article from './Article';
 import Sidebar from './Sidebar';
+import { Switch } from 'react-router';
+import Chat from './Chat';
+import {BrowserRouter as Router,Route }from 'react-router-dom';
 import './App.css';
 
 
 
 function App(){
-    return(
-        // <h1>Helloww</h1>
+    return(        
         <div className="container">
-          <Header></Header>
+          <Header/>
+          <Router>
+                <Switch>
+                    <Route exact path="/chat" component={Chat}/>
+                </Switch>
+            </Router>
           <Article/>
           <Sidebar/>
-          <Footer></Footer>
+          <Footer/> 
         </div>
         
     );

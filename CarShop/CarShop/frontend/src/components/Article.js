@@ -1,6 +1,6 @@
 import './Article.css';
 import articles from '../data/article.json';
-console.log(articles);
+// console.log(articles);
 
 function Article(){
     return(

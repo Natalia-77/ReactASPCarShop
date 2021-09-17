@@ -1,7 +1,8 @@
 
 .footer {
     font-family:Georgia, 'Times New Roman', Times, serif;
-    border: 3px solid rgb(91, 106, 122);   
+    border: 3px solid rgb(91, 106, 122);  
+    background-color:gainsboro;
     padding: 10px;
     margin: 5px;
 }

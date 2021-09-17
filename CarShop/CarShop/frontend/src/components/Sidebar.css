@@ -2,7 +2,7 @@
 .sidebar {   
     border: 3px solid ;
     border-color: crimson;
-    background-color:gainsboro;
+    background-color:rgb(245, 237, 237);
     padding: 10px;
     margin: 5px;
 }
@@ -19,4 +19,10 @@
     list-style-type: disc;
     padding-left: 0;
     font-size: 18px;
+}
+
+.sidebar lo{
+    padding: 15px;
+    font-size: 18px;
+    
 }

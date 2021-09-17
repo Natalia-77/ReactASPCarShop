@@ -3,10 +3,8 @@ import './App.css';
 
 function App() {
   return (
-    <>
-    
-    <h1>VPU 911)))</h1>
-    
+    <>    
+    <h1>VPU 911)))</h1>    
     </>
   );
 }

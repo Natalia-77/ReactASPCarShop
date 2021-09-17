@@ -5,15 +5,19 @@ function Sidebar(){
     return(
         <div className="sidebar">
             <nav>
-<ul>
-    {articles.map(item=>
-        <li>
-<a href={item.href}>{item.title}</a>
-        </li>
-            
-        )}
-</ul>
-            </nav>
+                <ul>
+                    {articles.map(item=>
+                        <li>
+                            <a href={item.href}>{item.title}</a>
+                        </li>                            
+                        )}                       
+                </ul>
+                
+                <lo >
+                     <a  href="/chat">Залишити відгук</a>  
+               </lo>
+                            
+            </nav> 
         </div>
     );
 }
